@@ -135,7 +135,7 @@ az staticwebapp create \
   - Software & Application Development
   - IT Infrastructure
   - Business Automation
-
+tristan was here 
 ### Contact Us (`/pages/contact.html`)
 - Contact information (phone, email)
 - Contact form with validation
