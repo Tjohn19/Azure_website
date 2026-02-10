@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Consult Ajent - Get in touch with our team">
+    <title>Contact Us - Consult Ajent</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Consult Ajent</div>
+            <ul class="nav-menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/pages/about.html">About Us</a></li>
+                <li><a href="/pages/services.html">Services</a></li>
+                <li><a href="/pages/contact.html">Contact Us</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Let's discuss how we can help your business</p>
+        </div>
+    </section>
+
+    <!-- Contact Info -->
+    <section class="content-section">
+        <div class="container">
+            <h2>Got tech challenges? Let's solve them together.</h2>
+            <p>Reach out today, and our experts will show you how smarter IT solutions can save time, boost efficiency, and take your business to the next level. Your next breakthrough is just a message away.</p>
+            
+            <div class="contact-info-grid">
+                <div class="contact-box">
+                    <h3>Phone</h3>
+                    <p><a href="tel:+16145517993">+01 (614) 551-7993</a></p>
+                </div>
+                <div class="contact-box">
+                    <h3>Email</h3>
+                    <p><a href="mailto:ContactUs@consultajent.com">ContactUs@consultajent.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="content-section alt">
+        <div class="container">
+            <h2>Send us a Message</h2>
+            <form class="contact-form" id="contactForm" onsubmit="handleContactForm(event)">
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="company">Company Name</label>
+                    <input type="text" id="company" name="company">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject *</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+                <div id="formMessage" style="margin-top: 15px; display: none;"></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Schedule Call Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Prefer a Direct Conversation?</h2>
+            <p>Schedule a free consultation with one of our experts. We'll discuss your needs and show you how we can help.</p>
+            <a href="https://calendly.com" class="btn btn-primary" target="_blank">Schedule a Call</a>
+            <p style="margin-top: 20px; font-size: 14px;">Note: Update the Calendly link with your actual calendar booking URL</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/pages/about.html">About Us</a></li>
+                        <li><a href="/pages/services.html">Services</a></li>
+                        <li><a href="/pages/contact.html">Contact Us</a></li>
+                        <li><a href="/pages/privacy.html">Privacy Policy</a></li>
+                        <li><a href="/pages/terms.html">Terms and Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="/pages/services.html#website-design">Website Design</a></li>
+                        <li><a href="/pages/services.html#migration">Migration</a></li>
+                        <li><a href="/pages/services.html#cybersecurity">Cyber Security</a></li>
+                        <li><a href="/pages/services.html#cloud">Cloud Services</a></li>
+                        <li><a href="/pages/services.html#software">Software & Applications</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Contact</h4>
+                    <p>Phone: +01 (614) 551-7993</p>
+                    <p>Email: ContactUs@consultajent.com</p>
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://facebook.com" target="_blank">Facebook</a>
+                        <a href="https://instagram.com" target="_blank">Instagram</a>
+                        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                        <a href="https://youtube.com" target="_blank">YouTube</a>
+                        <a href="https://twitter.com" target="_blank">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Consult Ajent. All rights reserved.</p>
+                <p>Designed & Developed by Ajent Consulting</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/app.js"></script>
+</body>
+</html>
